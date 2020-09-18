@@ -4,31 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/styles.scss">
+    <link rel="stylesheet" href="./styles/landing.scss">
+    <link rel="stylesheet" href="./styles/about.scss">
+    <link rel="stylesheet" href="./styles/portfolio.scss">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="landing">
         <div class="welcome">
-            <h1>Designer & Developer</h1>
-            <h2 class= "blue">My name is Abhinav, and I like building stuff!</h1>
+            <h1>ABHINAV BHATTA</h1>
+            <h2 class= "blue">I like creating elegant and fluid websites</h1>
         </div>
-        <img src="avatar.svg" alt="avatar" class="avatar">
+        <img src="./images/avatar.svg" alt="avatar" class="avatar">
         <div class="contact-icons">
-            <img src="linkedin.svg" alt="avatar" class="contact-icon">
-            <img src="github.svg" alt="avatar" class="contact-icon">
-            <img src="resume.svg" alt="avatar" class="contact-icon">
-            <img src="email.svg" alt="avatar" class="contact-icon">
+            <img src="./images/linkedin.svg" alt="linkedin" class="contact-icon">
+            <img src="./images/github.svg" alt="github" class="contact-icon">
+            <img src="./images/resume.svg" alt="resume" class="contact-icon">
+            <img src="./images/email.svg" alt="email" class="contact-icon">
         </div>
+        <img class="background" src="./images/background.svg" alt="">
 
     </section>
-    <section class="about">
+    <section class="portfolio">
         <div class="title">
-            <h1>About</h1>
+            <h1>Portfolio</h1>
+        </div>
+        <div class="underline" ></div>        
+        <div class="content">
+            <div class="app">
+                <img src="./images/tagwithme.png" alt="" class="appLogo">
+                <div class="info">
+                    <div class="desc">
+                        Connect with people interested in similar social events
+                    </div>
+                    <button class="learn">Learn More</button>
+                </div>
+            </div>
+
+            <div class="app">
+                <img src="./images/twitchstitch.png" alt="" class="appLogo">
+                <div class="info">
+                    <div class="desc">
+                        Watch multiple Twitch streams in one place 
+                    </div>
+                    <button class="learn">Learn More</button>
+                </div>
+            </div>
+
+            <div class="app">
+                <img src="./images/moodmate.png" alt="" class="appLogo">
+                <div class="info">
+                    <div class="desc">
+                        Create highly customized Spotify playlists
+                    </div>
+                    <button class="learn">Learn More</button>
+                </div>
+            </div>
             
         </div>
+        <!-- <img class="background" src="./images/background2.svg" alt=""> -->
+
+    </section> 
+    <section class="about">
+        <div class="test">
+            <img class="background" src="./images/background2.svg" alt="">
+        </div>
+
+        <div   class="title">
+            <h1>About</h1>
+        </div>
+        <div class="underline" ></div>        
         <div class="content">
-            <p>This is about's content</p>
+            <div class="container" >
+                <img class="image" src="./images/design.svg" alt="fast.svg">
+                <p>I prioritize creating elegant, fluid, and intuitive elements.</p>
+            </div>
+            <div class="container" >
+                <img class="image" src="./images/fast.svg" alt="fast.svg">
+                <p>I focus on creating fast, lag-free designs.</p>
+            </div>
+            <div class="container" >
+                <img class="image" src="./images/responsive.svg" alt="fast.svg">
+                <p>I design layouts that look well on any device, big or small.</p>
+            </div>
         </div>
     </section>
     <section class="skills">
@@ -48,14 +109,6 @@
             <p>This is timelines's content</p>
         </div>
     </section>
-    <section class="timeline">
-        <div class="title">
-            <h1>Projects</h1>
-            
-        </div>
-        <div class="content">
-            <p>This is projects's content</p>
-        </div>
-    </section>  
+     
 </body>
 </html>

@@ -1,0 +1,58 @@
+.about{
+    background: #2a3849;
+    text-align: center;
+    position: relative;
+
+    h1{
+        font-size: 2.5em;
+        color: #F15A24;
+    }
+    .underline{
+        color: #29abe2;
+
+    }
+
+    .content{
+        background: #2a3849;
+        color: rgb(134, 197, 38);
+        font-size: 1.5rem;
+        height: 80%;
+        margin: 0 2em;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            flex-wrap: wrap;
+            flex: 1 1 0px;
+
+             p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 1.5em 0;
+            }
+
+                        
+            .image{
+                max-width: 100%;
+                height: 200px;
+                width: 200px;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
